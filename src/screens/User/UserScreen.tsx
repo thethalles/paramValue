@@ -1,5 +1,4 @@
 import { View, Text } from 'react-native';
-import { useState } from 'react';
 
 import { RouteProp } from '@react-navigation/native';
 import { RootStackParamList } from '../../../App';

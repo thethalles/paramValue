@@ -1,4 +1,4 @@
-import { View, Text, TextInput, Button, StyleSheet, Platform, Pressable } from 'react-native';
+import { View, Text, TextInput, Button, StyleSheet, Pressable } from 'react-native';
 import { useState } from 'react';
 import { StackNavigationProp } from '@react-navigation/stack';
 import { RootStackParamList } from '../../../App';
@@ -82,13 +82,6 @@ export default function HomeScreen( { navigation }: HomeScreenProps ) {
 const styles = StyleSheet.create({
     container: {
         padding: 20
-    },
-    input: {
-        borderBottomWidth: 1,
-        marginBottom: 20,
-        borderWidth: 1,
-        borderColor: '#ccc',
-        borderRadius: 5
     },
     field: {
         borderWidth: 1,
